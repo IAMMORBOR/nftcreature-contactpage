@@ -143,7 +143,6 @@
   .ContactSection{
     display: flex;
     flex-direction: column-reverse;
-    padding: 2rem;
   }
   .ContactSection--frame1{
     width: 100vw;
@@ -156,20 +155,23 @@
     align-items: center;
   }
 
+
  }
 
  @media (max-width:37.5em){
   .ContactSection{
     display: flex;
     flex-direction: column-reverse;
-    padding: 2rem;
   }
   .ContactSection--frame1{
-    width: 100vw;
+    width: 90vw;
     
   }
   .ContactSection--frame2{
-    width: 100vw;
+    width: 90vw;
   }
+  .form--btn{
+    margin-left: 10rem;
+   }
  
  }
