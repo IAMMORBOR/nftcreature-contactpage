@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 60vw;
+  margin: 2rem auto;
+}
+.container ul {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+.container ul li {
+  list-style: none;
+  text-align: left;
+}
+.container ul li a {
+  text-decoration: none;
+  color: #131626;
+  line-height: 2;
+  font-size: 1rem;
+  font-weight: 400;
+}
+.desktop {
+  display: none;
+}
+@media screen and (min-width: 778px) {
+  .container {
+    width: 80vw;
+  }
+  .container ul {
+    display: flex;
+    justify-content: space-between;
+  }
+  .mobile {
+    display: none;
+  }
+  .desktop {
+    display: block;
+  }
+}
+@media screen and (min-width: 1050px) {
+  .container {
+    width: 50vw;
+  }
+}

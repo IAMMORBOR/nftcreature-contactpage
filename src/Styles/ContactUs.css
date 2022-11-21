@@ -1,0 +1,175 @@
+.ContactSection{
+  display: flex;
+}
+.ContactSection--frame1{
+  width: 44.4rem;
+  background-color: var(--dark-orange-color);
+  color:var( --bg-color);
+  padding: 2.3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+  
+.Heading{
+ font-size: 2.5rem;
+ font-weight: 900;
+ font-family: var(--text-family);
+ background-color: var(--dark-orange-color);
+  }
+.contactSection--text{
+  width: 10rem;
+  font-size:1rem;
+  margin:.65rem 0 3rem -5rem;
+  background-color: var(--dark-orange-color);
+  }
+.ContactSection--link{
+ /* color: var(--color-white); */
+ color:var(--bg-color);
+ text-decoration: none;
+ font-size: 1.2rem;
+ font-weight: 400;
+ display: flex;
+ margin-bottom: 3rem;
+ align-items: center;
+ cursor: pointer;
+ 
+}
+.ContactSection--icon_container{
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3rem;
+    width: 3rem;
+    border: 2px circle var(--bg-color);
+    border-radius: 50px;
+    border:2px solid var(--bg-color);
+    margin-right: 1.15rem;
+
+}
+  .ContactSection--frame2{
+    padding: 2.3rem;
+    margin: 0 auto;
+  }
+  .frame2__Heading{
+    font-size:1.95rem ;
+    font-weight: 900;
+    /* font-family: var(--MainFont);
+    color: var(--colorBlack); */
+    font-family: var(--text-family);
+    color-scheme: var(--bold-text-color);
+    margin-bottom: 2.6rem;
+  }
+  .frame2--input{
+    width: 23.15rem;
+    height: 3.15rem;
+    border-radius: 10px;
+    margin-bottom: 1.5rem;
+    outline: none;
+    border: 1px solid var(--bold-text-color);
+    
+  }
+  .frame2--input:hover,
+  .frame2--input--msg:hover{
+    border: 2px solid var(--dark-orange-color);
+  }
+  .frame2--input::placeholder,
+  .frame2--input--msg{
+    padding:1rem;
+    font-size: .9rem;
+  }
+  .frame2--input--msg{
+    outline: none;
+    border: 1px solid var(--bold-text-color);
+    border-radius: 10px;
+    width: 23rem;
+    height:5.5rem;
+  }
+  .frame2--label{
+    display: block;
+    margin-bottom: .4rem;
+  }
+  .form--btn{
+   width: 8.4rem;
+   height: 2rem;
+   background-color: var(--dark-orange-color);
+   border: none;
+   color: var(--bg-color);
+   border-radius:5px;
+   font-size: 1rem;
+   margin-left: 15rem;
+  }
+  .textArea--text{
+    font-size: 0.8rem;
+    color: var(--colorBlack);
+  }
+  .successMessage{
+    position: absolute;
+    top:40%;
+    left:30%;
+    height: 7rem;
+    width: 25rem;
+    background-color:var(--bg-color);
+    box-shadow: 2px 4px 3px 2px grey;
+    padding: 1rem 1.5rem;
+    border-radius: 10px;
+  
+    }
+    .successMessage--text{
+      color: var(--bg-color);
+      font-family: var(--text-family);
+      font-size: 1.2rem;
+      font-weight: 700;
+      margin-bottom: 10px;
+  }
+  .successMessage--subtext{
+      font-size: 0.9rem;
+      color:var(--bg-color);
+      width: 100%;
+  }
+ a{
+  background: none;
+ }
+ .ContactSection--icon{
+  background: none;
+ }
+ div,
+ p,
+ svg{
+  background: none;
+ }
+ @media (max-width:56.25em){
+  .ContactSection{
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 2rem;
+  }
+  .ContactSection--frame1{
+    width: 100vw;
+    
+  }
+  .ContactSection--frame2{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+ }
+
+ @media (max-width:37.5em){
+  .ContactSection{
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 2rem;
+  }
+  .ContactSection--frame1{
+    width: 100vw;
+    
+  }
+  .ContactSection--frame2{
+    width: 100vw;
+  }
+ 
+ }

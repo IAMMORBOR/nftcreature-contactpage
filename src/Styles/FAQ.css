@@ -1,0 +1,213 @@
+/* Faqs css */
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+
+*{
+  font-family: 'Outfit',  sans-serif;
+  background: #FFFAF5;
+  padding: 0;
+  margin: 0;
+}
+
+.faq-container{
+    margin: auto;
+    width: 100%;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.faq-px-5{
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
+
+.faq-text-center{
+    text-align: center;
+}
+
+.faq-h1-text{
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.faq-h6-text{
+    font-weight: 400;
+    font-size: 20px;
+    color: #777A8A;
+}
+  
+.faq-row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.faq-col{
+    width: 30%;
+    padding-bottom: 64px;
+}
+
+.faq-col-lg{
+    width: 100%;
+    height: auto;
+    padding: 5px;
+}
+
+.faq-fw-32{
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 150%;
+}
+  
+.faq-footer{
+    background: #FEEDDD;
+    border-radius: 12px; 
+    margin-bottom: 64px;
+}
+
+.faq-footer-bg{
+    background: #FEEDDD;
+}
+
+.faq-footer-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    width: 100%;
+}
+  
+.faq-footer-px{
+    padding-left: 32px;
+    padding-right: 32px;
+}
+
+.faq-footer-py{
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
+
+.faq-btn{
+    background: #F2522E;
+    border: 2px solid #131626;
+    border-radius: 7px;
+    padding: 10px;
+    width: 155px;
+    font-weight: 700;
+    font-size: 16px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.click-here{
+    color: #F2522E;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+@media (min-width: 600px) and (max-width: 832px) {
+
+    .faq-container{
+        margin: auto;
+        width: 100%;
+    }
+
+    .faq-fw-32{
+        font-weight: 600;
+        font-size: 24px;
+    }
+
+    .faq-col{
+        width: 48%;
+        padding-bottom: 64px;
+    }
+
+    .faq-row{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: none;
+        align-items: none;
+        width: 100%;
+    }
+
+    .faq-h6-text{
+        font-size: 18px;
+
+    }
+
+    .faq-footer-content{
+        display: flex;
+        flex-direction: column;
+        align-content: flex-start;
+        align-items: flex-start;
+        width: 100%;
+    }
+
+    .faq-btn{
+    margin-top: 24px;
+    }
+}
+
+@media (min-width: 0px) and (max-width: 599px) {
+    .faq-container{
+        margin: auto;
+        width: 100%;
+    }
+
+    .faq-fw-32{
+        font-weight: 600;
+        font-size: 24px;
+    }
+
+    .faq-col{
+        width: 100%;
+        padding-bottom: 40px;
+    }
+
+    .faq-row{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: none;
+        align-items: none;
+        width: 100%;
+    }
+
+    .faq-h6-text{
+        font-size: 18px;
+
+    }
+
+    .faq-footer-content{
+        display: flex;
+        flex-direction: column;
+        align-content: flex-start;
+        align-items: flex-start;
+        width: 100%;
+    }
+
+    .faq-btn{
+    margin-top: 24px;
+    }
+
+    .faq-footer-px{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .faq-footer-py{
+        padding-top: 32px;
+        padding-bottom: 32px;
+    }
+
+    .faq-footer{
+        border-radius: 0px;
+    }
+}
